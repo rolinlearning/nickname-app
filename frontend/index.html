@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nickname App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Nickname Register</h1>
+    
+    <!-- Input Form -->
+    <div class="input-section">
+      <input 
+        type="text" 
+        id="nicknameInput" 
+        placeholder="Enter your nickname"
+        maxlength="50"
+      >
+      <button id="saveBtn">Save</button>
+    </div>
+    
+    <!-- Message Display -->
+    <div id="message" class="message"></div>
+    
+    <!-- Nicknames List -->
+    <div class="list-section">
+      <h2>Registered Nicknames</h2>
+      <ul id="nicknameList" class="nickname-list">
+        <!-- Nicknames will be inserted here by JavaScript -->
+      </ul>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
